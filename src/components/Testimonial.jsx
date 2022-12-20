@@ -1,6 +1,6 @@
 import React from 'react';
 import { Swiper, SwiperSlide } from 'swiper/react';
-import { Navigation, Autoplay } from 'swiper';
+import { Navigation } from 'swiper';
 import { FaStar } from 'react-icons/fa';
 import 'swiper/css';
 import 'swiper/css/navigation';
@@ -9,7 +9,7 @@ import Photo_2 from '../assets/img_photo(1).png';
 
 function Carousel() {
   return (
-    <div className="mx-3">
+    <div className="mx-3 my-20  ">
       <div className="text-center">
         <h1 className="text-3xl font-semibold mb-3">Testimonial</h1>
         <p className="mb-5">Berbagai review positif dari para pelanggan kami</p>
